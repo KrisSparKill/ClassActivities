@@ -1,0 +1,26 @@
+/*CSS Stylesheet */
+body {
+  font-family:"Playfair Display";
+  background-color: #9fc4bc;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 32px;
+}
+
+* {border: 1px solid blue;
+}
+
+div {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+div {
+  margin: 30px;
+}
+
