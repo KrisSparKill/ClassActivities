@@ -265,7 +265,7 @@ const pairs = data.map(user => [user.address.geo.lat, user.address.geo.lng]);
 console.log(pairs);
 
 //or
-const blockPairs = data.map (user => {
+const blockPairs = data.map(user => {
   let lat = user.address.geo.lat;
   let lng = user.address.geo.lng;
 
@@ -274,5 +274,7 @@ const blockPairs = data.map (user => {
 console.log(blockPairs);
 
 // create an array of strings that combine the company's catchPhrase and bs
-const jargon = data.map(curr => `${curr.company.catchPhrase} ${curr.company.bs}`);
+const jargon = data.map(
+  curr => `${curr.company.catchPhrase} ${curr.company.bs}`
+);
 console.log(jargon);
