@@ -276,7 +276,9 @@ console.log(pairs);
 
 // create an array of strings that combine the company's catchPhrase and bs
 const phrase = [];
-data.forEach(curr => phrase.push(`${curr.company.catchPhrase} ${curr.company.bs}`));
+data.forEach(curr =>
+  phrase.push(`${curr.company.catchPhrase} ${curr.company.bs}`)
+);
 console.log(phrase);
 
 // query the HTML for the class class-week, then use forEach to change the text content
